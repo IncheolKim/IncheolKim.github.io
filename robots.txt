@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://IncheolKim.github.io/sitemap.xml
+Sitemap: https://incheolkim.github.io/sitemap.xml
