@@ -26,3 +26,22 @@ jang:
   - firstname: ["Hyeonjoong"]
     url: https://sites.google.com/view/hyeonjoong/
 
+serrano:
+  - firstname: ["Ana"]
+    url: https://ana-serrano.github.io/
+
+chen:
+  - firstname: ["Zhili"]
+    url: http://www.zhilichen.com/
+
+diverdi:
+  - firstname: ["Stephen"]
+    url: https://www.stephendiverdi.com/
+
+hertzmann:
+  - firstname: ["Aaron"]
+    url: https://research.adobe.com/person/aaron-hertzmann/
+
+baek:
+  - firstname: ["Seung-Hwan"]
+    url: https://sites.google.com/view/shbaek/
