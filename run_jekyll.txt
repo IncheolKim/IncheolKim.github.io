@@ -1,0 +1,5 @@
+bundle exec jekyll serve
+
+Conversion error: JekyllJupyterNotebook::Converter encountered an error while converting 'assets/jupyter/blog.ipynb':
+                    No such file or directory - jupyter
+                    => pip install notebook
