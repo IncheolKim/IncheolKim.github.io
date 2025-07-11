@@ -1,0 +1,12 @@
+@article{Serrano_TVCG_VR-6dof,
+  author = {Ana Serrano and
+  Incheol Kim and
+  Zhili Chen and
+  Stephen DiVerdi and
+  Diego Gutierrez and			  
+  Aaron Hertzmann and
+  Belen Masia},
+  title     = {Motion parallax for 360$^{\circ}$ RGBD video},
+  journal   = {IEEE Transactions on Visualization and Computer Graphics},
+  year      = {2019},
+}

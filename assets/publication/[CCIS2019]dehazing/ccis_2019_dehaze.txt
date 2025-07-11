@@ -1,0 +1,10 @@
+@InProceedings{dehazing:ccis:2019,
+  author   ="Kim, Incheol and Kim, Min H.",
+  title    ="Non-local Haze Propagation with an Iso-Depth Prior",
+  booktitle="Computer Vision, Imaging and Computer Graphics
+            -- Theory and Applications",
+  year     ="2019",
+  publisher="Springer International Publishing",
+  pages    ="213--238",
+  isbn     ="978-3-030-12209-6"
+}
