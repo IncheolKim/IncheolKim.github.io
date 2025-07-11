@@ -1,0 +1,51 @@
+// Make all social media icons smaller globally
+.social-icons .fa {
+  font-size: 0.6em; // You can adjust: 0.75em, 0.8em, 0.9em, etc.
+}
+
+.preview-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; // inherits from row
+  padding: 0;
+}
+
+.media-preview-wrapper {
+  position: relative;
+  width: 100px;         // preview size
+  height: 100px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+.media-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.default-layer {
+  opacity: 1;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.row:hover .media-preview-wrapper .hover-layer {
+  opacity: 1;
+  z-index: 3;
+}
+
+.row:hover .media-preview-wrapper .default-layer {
+  opacity: 0;
+  z-index: 1;
+}

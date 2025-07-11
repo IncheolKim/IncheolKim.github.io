@@ -1,0 +1,12 @@
+@Article{Prism:SIGA:2017,
+  author  = {Seung-Hwan Baek and Incheol Kim  
+             and Diego Gutierrez and Min H. Kim},
+  title   = {Compact Single-Shot Hyperspectral Imaging Using a Prism},
+  journal = {ACM Transactions on Graphics (Proc. SIGGRAPH Asia 2017)},
+  year    = {2017},
+  volume  = {36},
+  number  = {6},
+  pages   = {217:1-12},
+  doi     = "10.1145/3130800.3130896",
+  url     = "http://dx.doi.org/10.1145/3130800.3130896",
+}

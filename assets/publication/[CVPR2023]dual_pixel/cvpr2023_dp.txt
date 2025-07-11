@@ -1,0 +1,7 @@
+@InProceedings{Kim_2023_CVPR,
+  author = {Donggun Kim and Hyeojoong Jang and Inchul Kim and Min H. Kim},
+  title = {Spatio-Focal Bidirectional Disparity Estimation from a Dual-Pixel Image},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2023}
+} 

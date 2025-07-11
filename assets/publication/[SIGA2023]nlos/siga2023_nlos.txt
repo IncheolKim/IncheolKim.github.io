@@ -1,0 +1,8 @@
+@InProceedings{Choi:SIGGRAPHAsia:2023,
+  author  = {Kiseok Choi and Inchul Kim and Dongyoung Choi and Julio Marco 
+  and Diego Gutierrez and Min H. Kim},
+  title   = {Self-Calibrating, Fully Differentiable NLOS Inverse Rendering},
+  booktitle = {Proceedings of ACM SIGGRAPH Asia 2023},
+  month   = {December},
+  year    = {2023},
+}
