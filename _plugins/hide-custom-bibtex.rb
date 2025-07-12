@@ -10,6 +10,9 @@ module Jekyll
       # Clean superscripts in author lists
       input = input.gsub(/^.*\bauthor\b *= *\{.*$\n/) { |line| line.gsub(/[*†‡§¶‖&^]/, '') }
 
+      # Remove any HTML tags (e.g., <b>, <span>, <i>, etc.)
+      input = input.gsub(/<[^>]*>/, '')
+
       return input
     end
   end
