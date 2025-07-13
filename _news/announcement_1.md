@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-08-01 23:59:00-0400
 inline: true
-related_posts: false
+related_posts: true
 ---
 
-A simple inline announcement.
+Our NLOS paper has been accepted to <span style="font-weight: 900;">SIGGRAPH Asia</span> 2023.
