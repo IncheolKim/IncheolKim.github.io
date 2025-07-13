@@ -1,16 +1,17 @@
 module Jekyll
   module HideCustomBibtex
     def hideCustomBibtex(input)
-	    keywords = @context.registers[:site].config['filtered_bibtex_keywords']
+      keywords = @context.registers[:site].config['filtered_bibtex_keywords']
 
-	    keywords.each do |keyword|
-		    input = input.gsub(/^.*\b#{keyword}\b *= *\{.*$\n/, '')
-	    end
+      keywords.each do |keyword|
+        # Match the keyword field with multi-line braces using a non-greedy match
+        input = input.gsub(/^\s*#{keyword}\s*=\s*\{(?:[^{}]*|\{[^{}]*\})*\},?\s*\n?/mi, '')
+      end
 
-      # Clean superscripts in author lists
-      input = input.gsub(/^.*\bauthor\b *= *\{.*$\n/) { |line| line.gsub(/[*†‡§¶‖&^]/, '') }
+      # Clean superscripts in author field
+      input = input.gsub(/^.*\bauthor\b\s*=\s*\{.*$\n/) { |line| line.gsub(/[*†‡§¶‖&^]/, '') }
 
-      # Remove any HTML tags (e.g., <b>, <span>, <i>, etc.)
+      # Remove all HTML tags like <b>, <span>, <u>, etc.
       input = input.gsub(/<[^>]*>/, '')
 
       return input
